@@ -37,4 +37,4 @@ $ yarn start
 # e pronto! Front-end da Aplicação rodando.
 
 ```
-<p>Caso necessita mudar a porta 3000 e localhost que o react native utiliza por default  para fazer fetch, abra a pasta "src/services/" no arquivo "api.js" muda a url do axios</p>
+<p>Caso necessita mudar a porta 3000 e localhost que é utiliza por default  para fazer fetch, abra a pasta "src/services/" no arquivo "api.js" muda a url do axios</p>
