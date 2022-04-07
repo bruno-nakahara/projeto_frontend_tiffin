@@ -31,7 +31,7 @@ $ cd projeto_frontend_tiffin
 # Instale as dependências utilizando o comando 
 $ yarn install
 
-# Abra a pasta "src/services/" no arquivo "api.js" muda a baseURL do axios
+# Abra a pasta "src/services/" no arquivo "api.js" e muda a baseURL do axios para o ipv4 da sua máquina(recomendável)
 # Se tem todas as dependências, então rode a aplicação com
 $ yarn start
 
