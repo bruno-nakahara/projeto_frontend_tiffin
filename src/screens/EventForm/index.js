@@ -5,7 +5,7 @@ import style from './eventForm.style';
 
 //Formulário com os dados do evento
 const EventForm = ({ route, navigation }) => {
-  const [event, setEvent] = useState(route.params ? route.params : {}); //Caso o usuário deseja atualizar alguns dados, o parâmetro "route" passa os dados para o estado "event", se não vai editar o estado recebe um objeto vazio
+  const [event, setEvent] = useState(route.params || {}); //Caso o usuário deseja atualizar alguns dados, o parâmetro "route" passa os dados para o estado "event", se não vai editar o estado recebe um objeto vazio
   const { createEvent, updateEvent } = useEvents(); //Recebendo métodos de criar e atulizar o evento do context
 
   const handleSubmit = () => {
